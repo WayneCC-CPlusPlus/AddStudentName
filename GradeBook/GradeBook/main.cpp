@@ -93,9 +93,9 @@ void worker()
 		
 		
 	}
-	quizGrade = (object1.getQuizScoreTotal() / object1.getQuizTotal()) * .10;
+	quizGrade = (object1.getQuizScoreTotal() / object1.getQuizTotal()) * .40;
 	
-	testGrade = (object2.getTestScoreTotal() / object2.getTestTotal()) * .90;
+	testGrade = (object2.getTestScoreTotal() / object2.getTestTotal()) * .60;
 	
 
 	finalGrade = quizGrade + testGrade ;
